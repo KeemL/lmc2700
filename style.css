@@ -13,7 +13,7 @@ body {
     width: 100%;
     background-size: cover;
     background-position:center;;
-    background-color: #F5AF00;
+    background-color: #ce9608;
     overflow-x: hidden;
 }
 
@@ -199,6 +199,7 @@ img { background: transparent; }
     font-weight: bold;
     font-size: 100px;
     text-align: left;
+    color: black;
 }
 
 .about {
