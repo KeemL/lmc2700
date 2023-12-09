@@ -138,19 +138,20 @@ img { background: transparent; }
     padding-top: 10px;
 }
 
-.images {
-    display: flex;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    margin-top: 100px;
-    margin-bottom: 300px;
-    background-color: #26567e;
-  }
 
-.images ::after {
-    content:'';
-    display: table;
+
+  .column {
+    float: left;
+    width: 10%;
+    height: 10%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
     clear: both;
+    display: table;
   }
   
   .img-fluid {
@@ -254,4 +255,8 @@ h5 {
     margin-right: 40px;
     margin-bottom: 10px;
     margin-left:40px;
+}
+
+.resume {
+    padding-top: 570px;
 }
